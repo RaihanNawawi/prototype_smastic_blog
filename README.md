@@ -2,6 +2,7 @@
 
 Developing a school blog website along with an admin application for content management and user management.
 
+![mockup](img/mockup_blog.png)
 ---
 
 ## 📋 Features
