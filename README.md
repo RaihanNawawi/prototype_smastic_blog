@@ -19,7 +19,7 @@ Developing a school blog website along with an admin application for content man
 - **Deployment**: [Infinityfree](https://www.infinityfree.com/)
 
 ## ERD (Entity Relationship Diagram)
-
+![ERD](img/erd_smastic_blog.png)
 
 
 
