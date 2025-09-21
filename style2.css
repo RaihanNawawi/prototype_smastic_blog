@@ -1,0 +1,181 @@
+        /* Custom Font */
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Styles for the typing effect  */
+        .typing-text {
+            font-family: 'Arial', sans-serif;
+            color: #ffffff;
+            white-space: normal;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            border-right: 2px solid rgba(255, 255, 255, 0.75);
+            animation: blink 0.75s step-end infinite;
+            max-width: 100%;
+            line-height: 1.5;
+        }
+
+        @keyframes blink {
+            50% {
+                border-color:
+                    transparent;
+            }
+        }
+
+        /* Stlyles for the typing text effect END */
+
+        /* Custom styles for the navbar */
+
+        /* Transparent navbar at the top */
+        .navbar-transparent {
+            background-color: transparent;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Glamorphism style for navbar when scrolled */
+        .navbar-glassmorphism {
+            backdrop-filter: blur(15px) saturate(180%);
+            -webkit-backdrop-filter: blur(15px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+        }
+
+        /* Hamburger icon should be white when the page is at the top */
+        #hamburger {
+            color: white;
+            /* Default color when navbar is transparent */
+            transition: color 0.3s ease;
+        }
+
+        /* Change hamburger to black when navbar becomes light */
+        .navbar-light #hamburger {
+            color: black;
+        }
+
+        /* Dropdown menu text always black */
+        #mobile-menu a {
+            color: black;
+            /* Ensure text is black */
+        }
+
+        /* Hover effect for dropdown menu */
+        #mobile-menu a:hover {
+            background-color: #e5e5e5;
+            /* Light grey hover effect */
+        }
+
+        /* Ensure mobile menu is hidden by default */
+        #mobile-menu {
+            display: none;
+            /* Hidden by default */
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        /* Show mobile menu when class 'show' is added */
+        #mobile-menu.show {
+            display: block;
+            /* Display block when menu is active */
+            opacity: 1;
+        }
+
+        /* Dynamic text color */
+        .navbar-light a {
+            color: #000;
+        }
+
+        .navbar-light a:hover {
+            color: #333;
+        }
+
+        .navbar-dark a {
+            color: #fff;
+        }
+
+        .navbar-dark a:hover {
+            color: #f0f0f0;
+        }
+
+        /* Smooth transitions for hover effects */
+        a {
+            transition: color 0.3s ease;
+        }
+
+        .nav-logo {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .nav-logo:hover {
+            transform: scale(1.1);
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 50;
+            height: 70px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Ensure consistent navbar height */
+        header nav {
+            height: 70px;
+        }
+
+        /* Style for the "Sign Up" button */
+        .signup-button {
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Style for "Sign Up" when navbar is dark */
+        .navbar-dark .signup-button {
+            background-color: #ffffff;
+            /* Light background to contrast with dark text */
+            color: black;
+            /* Black text on light background */
+        }
+
+        /* Style for "Sign Up" when navbar is light */
+        .navbar-light .signup-button {
+            background-color: black;
+            /* Dark background for light navbar */
+            color: white;
+            /* White text on dark background */
+        }
+
+        .signup-button:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Additional native CSS for precise spacing if necessary */
+        .main-article img {
+            object-fit: cover;
+            height: 100%;
+        }
+
+        .main-article:hover img {
+            transform: scale(1.05);
+        }
+
+        .small-article:hover img {
+            transform: scale(1.05);
+        }
+
+        a:hover {
+            color: #1119
+        }
+
+        .transition-shadow {
+            transition: all 0.3s ease-in-out;
+        }
+
+
