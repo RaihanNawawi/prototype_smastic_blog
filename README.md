@@ -24,5 +24,5 @@ Developing a school blog website along with an admin application for content man
 
 
 ## Try Live Demo Here!
-[prototype-smasticblog.ct.ws](https://linktodocumentation)
+[prototype-smasticblog.ct.ws](https://prototype-smasticblog.ct.ws/index.php)
 
