@@ -1,0 +1,5 @@
+    /* Gaya untuk tombol yang aktif */
+    .btn.active {
+        background-color: #007bff;
+        color: white;
+    }
