@@ -11,7 +11,7 @@ Developing a school blog website along with an admin application for content man
 - Interaction (Like, Dislike, Comment)
 - Search Articles
 ---
-_Note: Sign in/Sign up first to can get use the Interaction Features_
+_Note: Sign in/Sign up first to can get use the Interaction Features and get access into admin dashboard (view only) in profile page_
 
 ---
 
