@@ -10,6 +10,8 @@ Developing a school blog website along with an admin application for content man
 - Authentication (Sign Up, Sign In)
 - Interaction (Like, Dislike, Comment)
 - Search Articles
+---
+_Note: Sign in/Sign up first to can get use the Interaction Features_
 
 ---
 
@@ -18,6 +20,14 @@ Developing a school blog website along with an admin application for content man
 - **Database**: MySQL
 - **Frontend**: Tailwind CSS, Javascript
 - **Deployment**: [Infinityfree](https://www.infinityfree.com/)
+
+
+## Other Tools & Resources:
+- **Web Mockup**: [Placeit.net](https://placeit.net/)
+- **Dashboard Template (Admin)**: [Themewagon](https://themewagon.com/themes/free-responsive-bootstrap-5-html5-admin-template-sneat/)
+- **ERD Diagram**: [Drawsql](https://drawsql.app/)
+- **Local Server**: [XAMPP](https://www.apachefriends.org/)
+- **Project Management**: [Notion](https://www.notion.com/)
 
 ## ERD (Entity Relationship Diagram)
 ![ERD](img/erd_smastic_blog.png)
